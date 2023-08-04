@@ -1,0 +1,72 @@
+<div class="flex justify-between items-center p-4 bg-white">
+    <mat-icon class="text-slate-500" fontSet="material-icons-outlined" (click)="toggleMobileMenu()">menu</mat-icon>
+    <img src="../../../assets/images/moneyLogo.png" alt="" class="w-10">
+    <img src="../../../assets/images/profilePhoto.jpg" alt="" class="w-10 rounded-xl">
+</div>
+
+    <div [@slideInOut]="isMobileOpen.toString()" class="flex justify-center -mt-[4.5rem]">
+        <div class="bg-white rounded-lg p-3 mt-2 w-[97%] shadow-md border border-gray-200">
+            <div class="p-4">
+                <nav>
+                    <div class="flex items-center">
+                        <div class="flex items-center">
+                            <img src="../../../assets/images/moneyLogo.png" alt="" class="w-10">
+                            <p class="ml-2 font-bold ">100 Thieves Crypto</p>
+                        </div>
+                        <mat-icon class="text-slate-500 ml-auto transform scale-125" (click)="toggleMobileMenu()">close</mat-icon>
+                    </div>
+    
+    
+                    <ul class="mt-6">
+                        <p class="text-slate-400 font-bold text-xs">Base</p>
+    
+    
+                        <div class="flex items-center mt-3 ml-4">
+                            <mat-icon class="text-slate-500">pie_chart_outline</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p class="text-[#00d631]">Dashboard</p>
+                            </li>
+                        </div>
+    
+    
+                        <div class=" flex items-center mt-3 ml-4">
+                            <mat-icon class="text-slate-500">lock_outline</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p>Auth</p>
+                            </li>
+                        </div>
+    
+    
+                        <p class="text-slate-400 mt-6 font-bold text-xs">Collaborations</p>
+                        <div class=" flex items-center mt-3 ml-4">
+                            <mat-icon class="text-slate-500" fontSet="material-icons-outlined">download</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p>Download</p>
+                            </li>
+                        </div>
+                        <div class=" flex items-center mt-3 ml-4">
+                            <mat-icon class="text-slate-500" fontSet="material-icons-outlined">group</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p>Users</p>
+                            </li>
+                        </div>
+    
+    
+                        <p class="text-slate-400 mt-6 font-bold text-xs">Configuration</p>
+                        <div class=" flex items-center mt-3 ml-4">
+                            <mat-icon class="text-slate-500" fontSet="material-icons-outlined">settings</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p>Settings</p>
+                            </li>
+                        </div>
+                        <div class=" flex items-center mt-3 ml-4 mb-4">
+                            <mat-icon class="text-slate-500" fontSet="material-icons-outlined">notifications</mat-icon>
+                            <li class="ml-4 text-slate-500 font-semibold text-base">
+                                <p>Notification</p>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
