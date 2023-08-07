@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashBoardMobileModule } from '../Layout/dash-board-mobile/dash-board-mobile.module';
+import { DashBoardDesktopModule } from '../Layout/dash-board-desktop/dash-board-desktop.module';
 
 
 
@@ -11,8 +12,8 @@ import { DashBoardMobileModule } from '../Layout/dash-board-mobile/dash-board-mo
   ],
   imports: [
     CommonModule,
-    DashBoardMobileModule
-  ],
+    DashBoardMobileModule,
+    DashBoardDesktopModule  ],
   exports: [
     DashboardComponent
   ]
