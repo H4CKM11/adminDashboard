@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashBoardDekstopComponent } from './dash-board-dekstop/dash-board-dekstop.component';
 import { NavbarDesktopModule } from '../navbar-desktop/navbar-desktop.module';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 
@@ -9,7 +10,8 @@ import { NavbarDesktopModule } from '../navbar-desktop/navbar-desktop.module';
   declarations: [DashBoardDekstopComponent],
   imports: [
     CommonModule,
-    NavbarDesktopModule
+    NavbarDesktopModule,
+    MatSidenavModule
   ],
   exports: [
     DashBoardDekstopComponent  ]
