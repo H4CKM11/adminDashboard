@@ -10,7 +10,7 @@ import { trigger, state, style, animate, transition, group } from '@angular/anim
   animations: [
     trigger('slideInOut', [
       state('in', style({  width:'5rem' })),
-      state('out', style({  width:'20rem' })),
+      state('out', style({  width:'17rem' })),
       transition('in => out', animate('0.3s ease-in-out')),
       transition('out => in', animate('0.3s ease-in-out'))
     ]),
@@ -27,15 +27,15 @@ import { trigger, state, style, animate, transition, group } from '@angular/anim
     trigger('shiftToLeft', [
       state('in', style({ transform: 'translateX(-8rem) rotate(180deg)', marginRight: '-7rem' })),
       state('out', style({ transform: 'translateX(-100%)' })),
-      transition('in <=> out', animate('0.5s ease-in-out')),
+      transition('in <=> out', animate('0.3s ease-in-out')),
     ]),
   ],
 })
 export class NavbarDesktopComponent {
 
-  isWidthIncreased: boolean = true;
-  isFadeOut: boolean = true;
-  isShifted: boolean = true;
+  isWidthIncreased: boolean = false;
+  isFadeOut: boolean = false;
+  isShifted: boolean = false;
 
 
   

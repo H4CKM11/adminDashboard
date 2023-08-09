@@ -1,2 +1,28 @@
-
+<div class="flex">
     <app-navbar-desktop></app-navbar-desktop>
+    <div class="flex-grow">
+        <app-sub-navbar-desktop></app-sub-navbar-desktop>
+
+        <!-- Start of Main Dashboard -->
+        <div class="ml-5 mt-5 w-[90%]">
+            <div class="flex justify-between">
+                <div>
+                    <h2 class="font-semibold text-lg">NFT Dashboard</h2>
+                    <div class="flex text-sm text-slate-400">
+                        <p class="hover:text-[#00d631]">Dashboard </p>
+                        <p class="ml-1"> - NFTs</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="px-4 py-3 bg-white text-slate-400 hover:text-[#00d631] rounded-md text-sm font-semibold">View Orders</button>
+                    <button class="px-4 py-3 bg-[#00d631] text-white rounded-md text-sm font-semibold ml-5">Manage Bids</button>
+                </div>
+            </div>
+
+            <div>
+                <app-main-card-feature-desktop></app-main-card-feature-desktop>
+            </div>
+        </div>
+    </div>
+</div>
+
