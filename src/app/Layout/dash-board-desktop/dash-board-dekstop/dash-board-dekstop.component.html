@@ -1,37 +1,43 @@
-<div class="flex">
+<div class="flex h-screen w-full overflow-hidden">
     <app-navbar-desktop></app-navbar-desktop>
     <div class="flex-grow">
         <app-sub-navbar-desktop></app-sub-navbar-desktop>
 
-        <!-- Start of Main Dashboard -->
-        <div class="ml-5 mt-5 w-[90%]">
-            <div class="flex justify-between">
-                <div>
-                    <h2 class="font-semibold text-lg">NFT Dashboard</h2>
-                    <div class="flex text-sm text-slate-400">
-                        <p class="hover:text-[#00d631]">Dashboard </p>
-                        <p class="ml-1"> - NFTs</p>
-                    </div>
-                </div>
-                <div>
-                    <button class="px-4 py-3 bg-white text-slate-400 hover:text-[#00d631] rounded-md text-sm font-semibold">View Orders</button>
-                    <button class="px-4 py-3 bg-[#00d631] text-white rounded-md text-sm font-semibold ml-5">Manage Bids</button>
-                </div>
-            </div>
-
-            <div class="flex justify-center mt-6 ">
-                <div class="desktop-1920-Res:w-[95%] desktop-1440-Res:w-[80%]">
-                    <div class="grid grid-cols-4 gap-6">
-                        <div class="col-span-2">
-                            <app-main-card-feature-desktop></app-main-card-feature-desktop>
+        <div class="overflow-auto h-full">
+            <!-- Start of Main Dashboard -->
+            <div class="ml-5 my-10 w-[90%]">
+                <div class="flex justify-between">
+                    <div>
+                        <h2 class="font-semibold text-lg">NFT Dashboard</h2>
+                        <div class="flex text-sm text-slate-400">
+                            <p class="hover:text-[#00d631]">Dashboard </p>
+                            <p class="ml-1"> - NFTs</p>
                         </div>
-                        <app-main-sub-card-desktop></app-main-sub-card-desktop>
-                        <app-main-sub-card2-desktop></app-main-sub-card2-desktop>
+                    </div>
+                    <div>
+                        <button class="px-4 py-3 bg-white text-slate-400 hover:text-[#00d631] rounded-md text-sm font-semibold">View Orders</button>
+                        <button class="px-4 py-3 bg-[#00d631] text-white rounded-md text-sm font-semibold ml-5">Manage Bids</button>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-6 ">
+                    <div class="desktop-1920-Res:w-[95%] desktop-1440-Res:w-[80%]">
+                        <div class="grid grid-cols-4 gap-6">
+                            <div class="col-span-2">
+                                <app-main-card-feature-desktop></app-main-card-feature-desktop>
+                            </div>
+                            <app-main-sub-card-desktop></app-main-sub-card-desktop>
+                            <app-main-sub-card2-desktop></app-main-sub-card2-desktop>
+                            <app-eth-pricing-chart-desktop></app-eth-pricing-chart-desktop>
+            
+                            <div class="col-span-3">
+                                <app-friends-activity-desktop></app-friends-activity-desktop>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
+
     </div>
 </div>
 
