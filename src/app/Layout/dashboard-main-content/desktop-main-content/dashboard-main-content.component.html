@@ -1,0 +1,43 @@
+<div class="flex flex-col justify-between">
+
+    <!-- Start of Main Dashboard -->
+        <div class="ml-5 desktop-1920-Res:w-[95%] desktop-1300-res:w-[92%] ">
+            <div class="flex justify-between">
+                <div>
+                    <h2 class="font-semibold text-lg">NFT Dashboard</h2>
+                    <div class="flex text-sm text-slate-400">
+                        <p class="hover:text-[#00d631]">Dashboard </p>
+                        <p class="ml-1"> - NFTs</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="px-4 py-3 bg-white text-slate-400 hover:text-[#00d631] rounded-md text-sm font-semibold">View Orders</button>
+                    <button class="px-4 py-3 bg-[#00d631] text-white rounded-md text-sm font-semibold ml-5">Manage Bids</button>
+                </div>
+            </div>
+
+            <!-- Start of Grid -->
+            <div class="flex justify-center mt-6 ">
+                    <div class="grid grid-cols-4 gap-4">
+                        <div class="col-span-2">
+                            <div class="flex h-full flex-col rounded-lg bg-white p-8 dark:bg-night-700 sm:flex-row">
+                                <app-main-card-feature-desktop></app-main-card-feature-desktop>
+                            </div>
+                        </div>
+
+                        <div class="flex h-full flex-col rounded-lg bg-white p-8 dark:bg-night-700 sm:flex-row">
+                            <app-main-sub-card-desktop></app-main-sub-card-desktop>
+                        </div>
+                        <div class="flex h-full flex-col rounded-lg bg-white p-8 dark:bg-night-700 sm:flex-row">
+                            <app-main-sub-card2-desktop></app-main-sub-card2-desktop>
+                        </div>
+                        <app-eth-pricing-chart-desktop></app-eth-pricing-chart-desktop>
+                        <div class="col-span-3">
+                            <app-friends-activity-desktop></app-friends-activity-desktop>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div>
+        </div>
+</div>

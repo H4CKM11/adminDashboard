@@ -1,5 +1,4 @@
-<div [@slideInOut]="isWidthIncreased ? 'in' : 'out'" class="bg-white p-3 border h-full border-gray-200" (click)="toggleWidth()" (click)="toggleFade()" (click)="toggleShift()">
-    <div class="flex flex-col">
+<div [@slideInOut]="isWidthIncreased ? 'in' : 'out'" class="bg-white p-3 border h-full border-gray-200 flex flex-col justify-between" (click)="toggleWidth()" (click)="toggleFade()" (click)="toggleShift()">
         <nav>
             <!-- Start of Nav -->
             <div>
@@ -60,9 +59,9 @@
                                     </li>
                                 </div>
                             </ul>
-            </div>
-                        
-                        
+            </div>                  
+        </nav>
+
         <!-- Sign Out Options -->
             <div class=" mb-4">
                 <ul>
@@ -80,6 +79,4 @@
                         </div>
                 </ul>
             </div>
-        </nav>
-    </div>
 </div>

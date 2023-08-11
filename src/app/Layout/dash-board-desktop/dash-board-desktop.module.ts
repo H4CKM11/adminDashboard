@@ -10,6 +10,7 @@ import { MainSubCard2DesktopModule } from '../main-sub-card2-desktop/main-sub-ca
 import { EthPricingChartDesktopModule } from '../eth-pricing-chart-desktop/eth-pricing-chart-desktop.module';
 import { FriendsActivityDesktopModule } from '../friends-activity-desktop/friends-activity-desktop.module';
 import { FooterDesktopModule } from '../footer-desktop/footer-desktop.module';
+import { DashboardMainContentModule } from '../dashboard-main-content/dashboard-main-content.module';
 
 
 
@@ -25,7 +26,8 @@ import { FooterDesktopModule } from '../footer-desktop/footer-desktop.module';
     MainSubCard2DesktopModule,
     EthPricingChartDesktopModule,
     FriendsActivityDesktopModule,
-    FooterDesktopModule
+    FooterDesktopModule,
+    DashboardMainContentModule
   ],
   exports: [
     DashBoardDekstopComponent  ]
