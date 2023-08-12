@@ -11,7 +11,7 @@ I decided to go deep first into this dashboard design to hopefully learn the ins
 I used Angular and tailwind to complete this project.
 
 **Disclaimer**
-I did not create this UI, that honor goes to ADD LINK HERE, I was looking for a dashboard that I knew would challenge me and I found this one to be the most compelling and challenging one.
+I did not create this UI, that honor goes to [luciano-work](https://github.com/luciano-work/angular-tailwind?fbclid=IwAR0cBVLQ209orZdeQXKgPaWR7XeaVBgksGyoZa6mv7lveKG_GtW7y1apJd4_aem_ARjbYDMtSm1peV6MOcvJvocHw3xvmOUgKz3J1e45JxRJSM1RH4ZniS2RQ77_WMifSTg), I was looking for a dashboard that I knew would challenge me and I found this one to be the most compelling and challenging one.
 
 **This project has the potential to be more so can’t say if this is the final product yet or not**
 
