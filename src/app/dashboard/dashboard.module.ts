@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashBoardMobileModule } from '../Layout/dash-board-mobile/dash-board-mobile.module';
 import { DashBoardDesktopModule } from '../Layout/dash-board-desktop/dash-board-desktop.module';
+import { DashboardTabletModule } from '../Layout/dashboard-tablet/dashboard-tablet.module';
 
 
 
@@ -13,7 +14,8 @@ import { DashBoardDesktopModule } from '../Layout/dash-board-desktop/dash-board-
   imports: [
     CommonModule,
     DashBoardMobileModule,
-    DashBoardDesktopModule  ],
+    DashBoardDesktopModule,
+    DashboardTabletModule  ],
   exports: [
     DashboardComponent
   ]
