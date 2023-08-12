@@ -1,27 +1,18 @@
-# AdminDashboard
+**Motivation**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+The only way to get better at something is to continually put in the practice. For the first year of my programming journey, I focused solely on Command Line programs, working extensively with C++. I took this route because at the time, I didn’t know which branch of programming I wanted to go into and based on the research I did, I learned that if I wanted to learn the fundamentals, C++ was my best option.
 
-## Development server
+After trying everything under the sun from robotics to database to algorithms I finally decided to try my hand at app development, after a solid year of straight building command line programs, on June 16th, 2023, I decided to build my first web app.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+It was so horrible that I refuse to publish it but I quickly fell in love with the process. After finishing up my summer courses, I decided to start on a new project from scratch building off all the failures I learned from my first project.
 
-## Code scaffolding
+I decided to go deep first into this dashboard design to hopefully learn the ins and outs of CSS and boy did it teach me. Forcing me to learn about grids, tables, overflow, responsiveness, it was an emotional rollercoaster of learning. From wanting to trash the entire project to pushing through it, to finally finishing the first draft to the public.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I used Angular and tailwind to complete this project.
 
-## Build
+**Disclaimer**
+I did not create this UI, that honor goes to ADD LINK HERE, I was looking for a dashboard that I knew would challenge me and I found this one to be the most compelling and challenging one.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**This project has the potential to be more so can’t say if this is the final product yet or not**
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+See [demo](https://one.eduardomartinez13.com/) here
