@@ -18,3 +18,5 @@ I did not create this UI, that honor goes to [luciano-work](https://github.com/l
 See [demo](https://one.eduardomartinez13.com/) here
 
 ![Desktop Screenshot](https://github.com/H4CKM11/adminDashboard/blob/f399eecb0ee65fa0583f69afeec18b06eb9de4d9/1781A80C-A3B4-4223-AF18-68260FC21F54.png)
+
+![mobile screenshot](https://github.com/H4CKM11/adminDashboard/blob/d0d8e3bf5d3284b3519e9cb633bf9e6bb5cad7f3/C8A08A87-3A74-406A-914A-D1C3EFE201CB.jpeg)
